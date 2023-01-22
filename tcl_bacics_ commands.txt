@@ -1,0 +1,34 @@
+#SETS AND PUTS OPERATION
+set a 10
+set b 10
+set c "I am Karthik Raj from ECE"
+
+puts $a
+puts $b
+puts $c
+
+#ADDITION OPERATION
+set d [expr $a+$b]
+puts "The Addition Value: $d"
+
+#SUBRACTION OPERATION
+set e [expr $b-$a]
+puts "The Subracted Value: $e"
+
+#MULTIPLICATION OPERATION
+set f [expr $a*$b]
+puts "The MUltiplication Value: $f"
+
+#DIVISION OPERATION
+set g [expr $a/$b]
+puts "The Division Value: $g" 
+
+#MODULO OPERATION
+set h [expr $a%$b]
+puts "The MOdulo value: $h" 
+
+#FLOAT VALUE CONVERTER
+set i 10.00
+puts "The int converted value of float: $i"
+set j [expr int($i)]
+puts "The Integer value of Float is: $j"

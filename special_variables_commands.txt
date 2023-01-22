@@ -1,0 +1,14 @@
+#Special_Variables
+#argv:This variable hold argument value
+#ardc:This variable will hold argument count
+
+puts $argv
+puts $argc
+
+if {argc!=4} {
+puts "Error in values"
+exit
+}
+lassign $argv llx,ulx,lly,uly
+set area [(ulx-llx)*(uly-lly)]
+puts "Area of Rectangle is : $area"
